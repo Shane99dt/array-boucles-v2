@@ -115,10 +115,34 @@
 // console.log(biggerNumTotal)
 
 // exercise 11
+// la réponse sera:
+// 10
+// 34
+// 17
+// 30
+// 14
 
 // exercise 12
 
+// la réponse sera:
+// 12
+// 24
+// 33
+// 39
+// 42
+// 0
+
 // exercise 13
+
+// la réponse sera:
+// 0
+// 3
+// -3
+// 2
+// -2
+// 5
+// -4
+
 
 // exercise 14
 
