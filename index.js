@@ -47,3 +47,12 @@
 // for (let i = 0; i <= 10; i++){
 //   console.log(`3 x ${i} = ${3*i}`)
 // }
+
+// excersice 5
+
+// for (let i = 0; i <= 10; i++){
+//   for (let j = 0; j <= 10; j++){
+//     console.log(`${i} x ${j} = ${i*j}`)
+//   }
+//   console.log("")
+// }
