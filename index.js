@@ -122,9 +122,38 @@
 
 // exercise 14
 
+// let sumArm = 0
+
+// for (let i = 0; i < 1000; i++){
+//   // resetting the value
+//   sumArm = 0
+//   // length of the number
+//   let lengthNum = i.toString().length
+//   let sumNum = 0
+
+//   for(let j = 0; j < lengthNum; j++){
+
+//     // getting the number devided to one by one
+//     let num = parseInt(i.toString().charAt(j))
+//     sumNum += num**3
+//   }
+
+//   // adding the values got from each number to sumArm
+//   sumArm += sumNum
+
+//   // checking the armstrong value
+//   if(i == sumArm){
+//     console.log(`${i} is an armstrong number`)
+//   }
+// }
+
+
+
+// exercise 15
+
 let sumArm = 0
 
-for (let i = 0; i < 1000; i++){
+for (let i = 0; i < 10000; i++){
   // resetting the value
   sumArm = 0
   // length of the number
@@ -135,7 +164,8 @@ for (let i = 0; i < 1000; i++){
 
     // getting the number devided to one by one
     let num = parseInt(i.toString().charAt(j))
-    sumNum += num**3
+    //just replaced the 3 by number length
+    sumNum += num**lengthNum
   }
 
   // adding the values got from each number to sumArm
