@@ -87,3 +87,62 @@
 //   sumSq += i**2
 // }
 // console.log(sumSq)
+
+// exercise 9
+
+// let sevenMultiples = 0
+
+// for (let i = 100; i <= 1000; i++){
+//   if(i % 7 == 0){
+//     sevenMultiples +=1
+//   }
+// }
+// console.log(sevenMultiples)
+
+
+// exercise 10
+
+// const min = 1
+// const max = 6
+// let biggerNumTotal = 0
+
+// for( let i = 0; i < 20; i++){
+//   const random = Math.floor(Math.random() * max) + min
+//   if (random >= 5){
+//     biggerNumTotal += random
+//   }
+// }
+// console.log(biggerNumTotal)
+
+// exercise 11
+
+// exercise 12
+
+// exercise 13
+
+// exercise 14
+
+let sumArm = 0
+
+for (let i = 0; i < 1000; i++){
+  // resetting the value
+  sumArm = 0
+  // length of the number
+  let lengthNum = i.toString().length
+  let sumNum = 0
+
+  for(let j = 0; j < lengthNum; j++){
+
+    // getting the number devided to one by one
+    let num = parseInt(i.toString().charAt(j))
+    sumNum += num**3
+  }
+
+  // adding the values got from each number to sumArm
+  sumArm += sumNum
+
+  // checking the armstrong value
+  if(i == sumArm){
+    console.log(`${i} is an armstrong number`)
+  }
+}
