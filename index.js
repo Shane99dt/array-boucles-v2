@@ -56,3 +56,34 @@
 //   }
 //   console.log("")
 // }
+
+// exercise 6
+
+// let factNum = 7
+// let factSum = 1
+
+// for (let i = 1; i <= factNum; i++){
+//   factSum *= i
+// }
+// console.log(`${factNum}! = ${factSum}`)
+
+
+// exercise 7
+
+// let factSum = 1
+
+// for (let i = 0; i <= 8; i++){
+//   for (let j = 1; j <= i; j++){
+//     factSum *= j
+//   }
+//   console.log(`${i}! = ${factSum}`)
+// }
+
+// exercise 8
+
+// let sumSq = 0
+
+// for (let i = 5; i <= 10; i++){
+//   sumSq += i**2
+// }
+// console.log(sumSq)
