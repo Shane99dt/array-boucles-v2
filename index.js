@@ -143,7 +143,6 @@
 // 5
 // -4
 
-
 // exercise 14
 
 // let sumArm = 0
