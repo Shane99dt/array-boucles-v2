@@ -77,6 +77,7 @@
 //     factSum *= j
 //   }
 //   console.log(`${i}! = ${factSum}`)
+//   factSum = 1
 // }
 
 // exercise 8
